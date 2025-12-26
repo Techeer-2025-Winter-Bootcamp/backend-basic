@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Django
+db.sqlite3
+*.sqlite3
+*.pot
+media/
+static/
+staticfiles/
+local_settings.py
+
+# Environment variables
+*.env
+.env
+.env.*
+backend.env
+
+# Django migrations (optional - 프로젝트 정책에 따라 주석 처리)
+# **/migrations/[0-9]*.py
+**/migrations/__pycache__/
+
+# Testing & Coverage
+.coverage
+htmlcov/
+coverage.xml
+.pytest_cache/
+.cache/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Docker
+*.log
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Others
+.python-version
+Pipfile.lock

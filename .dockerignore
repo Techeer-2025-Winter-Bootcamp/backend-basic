@@ -1,0 +1,105 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker-compose.*.yml
+.dockerignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+*.env
+.env
+.env.*
+backend.env
+
+# Django
+db.sqlite3
+*.sqlite3
+*.log
+media/
+staticfiles/
+local_settings.py
+
+# Testing & Coverage
+.coverage
+htmlcov/
+coverage.xml
+.pytest_cache/
+.cache/
+*.cover
+.hypothesis/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# Documentation
+README.md
+*.md
+docs/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+
+# Others
+.python-version
+Pipfile.lock
+node_modules/
+npm-debug.log
+yarn-error.log
+
