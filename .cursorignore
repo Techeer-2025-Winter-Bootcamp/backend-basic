@@ -1,0 +1,81 @@
+# Environment variables (민감한 정보)
+*.env
+.env
+.env.*
+backend.env
+
+# Database
+db.sqlite3
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+
+# Media & Static files
+media/
+staticfiles/
+static/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+.dockerignore
+
+# Testing & Coverage
+.coverage
+htmlcov/
+coverage.xml
+.pytest_cache/
+.cache/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# IDEs (중복 설정)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node modules (만약 프론트엔드 추가 시)
+node_modules/
+
+# Large files
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+*.rar
+
