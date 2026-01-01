@@ -1,7 +1,12 @@
-from config.urls import path
+from django.urls import path
 
-from . import views
+from post.views import PostCreateView, PostDetailView
+
+app_name = 'post'
 
 urlpatterns = [
-    path("", views.index),
+    # 게시글
+    path('posts', PostCreateView.as_view(), name='post-create'),
+    path('posts/<int:post_id>', PostDetailView.as_view(), name='post-detail'),
+    path("comments", PostCreateView.as_view(), name="comment-create")
 ]
